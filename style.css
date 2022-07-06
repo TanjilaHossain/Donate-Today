@@ -18,11 +18,12 @@ h3 {
 
 }
 
+/* ......................1st   SECTION.......... */
 .header-section {
     background-image: url("images/donation13.jpg");
     background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+    /*background-attachment: fixed;*/
     background-size: cover;
 }
 
@@ -40,7 +41,14 @@ h3 {
     margin-bottom: 50px;
 }
 
+#donate-text-field {
+    outline: 0;
+    width: 50%;
+    border-width: 0 0 2px;
+    border-color: rgb(215, 215, 228);
+}
 
+/* ...............................BUTTON....................*/
 .link-button {
     text-decoration: none;
     padding: 10px 15px;
@@ -50,6 +58,8 @@ h3 {
     font-weight: 700;
     font-size: large;
 }
+
+/*............... 2nd and 3rd section  : decoration.............*/
 
 .section-donation {
     display: block;
@@ -61,6 +71,7 @@ h3 {
     margin: 40px 0;
 }
 
+/*.............2nd SECTION: "Donate Today" amount part.........*/
 .amount {
     display: flex;
     justify-content: center;
@@ -86,6 +97,7 @@ h3 {
 
 }
 
+/*..............3rd SECTION  : FOOD SHELTER EDUCATION..........*/
 .food-shelter-edu {
     display: flex;
 }
@@ -111,7 +123,7 @@ h3 {
 
 }
 
-
+/*..........................FOOTER...........*/
 
 footer {
     background-color: black;
@@ -119,15 +131,21 @@ footer {
     text-align: center;
     width: 100%;
     position: absolute;
+    font-family: 'The Nautigal', cursive;
+
 }
 
 footer h2 {
     color: brown;
     margin-bottom: 0;
+    font-weight: 900;
+
 }
 
-footer h4 {
-    color: white;
-    font-weight: 100;
+footer h5 {
+
+    color: rgba(241, 242, 243, 0.656);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
     margin-top: 0;
 }
