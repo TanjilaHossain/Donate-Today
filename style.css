@@ -54,11 +54,11 @@ h3 {
 .section-donation {
     display: block;
     text-align: center;
-    padding: 0 10%;
+    padding: 20px 10%;
 }
 
 .section-donation div {
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .amount {
@@ -70,9 +70,64 @@ h3 {
     width: 150px;
     padding: 30px 5px;
 
-    background-color: antiquewhite;
     margin: 5px;
     border-radius: 10px;
 
 
+}
+
+.amount-box {
+    background-color: rgb(249, 248, 247);
+
+}
+
+.highlighed-color {
+    background-color: rgb(250, 212, 206);
+
+}
+
+.food-shelter-edu {
+    display: flex;
+}
+
+.food-shelter-edu div {
+    text-align: left;
+    margin: 10px;
+    padding: 5% 2% 2%;
+    border-radius: 5px;
+}
+
+.food {
+    background-color: aliceblue;
+}
+
+.shelter {
+    background-color: rgb(255, 240, 251);
+
+}
+
+.edu {
+    background-color: beige;
+
+}
+
+
+
+footer {
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+footer h2 {
+    color: brown;
+    margin-bottom: 0;
+}
+
+footer h4 {
+    color: white;
+    font-weight: 100;
+    margin-top: 0;
 }
